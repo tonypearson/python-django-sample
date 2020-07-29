@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 
 # SECURITY WARNING: keep the key secret!
 
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY='+)!38krz^m$i%=uo!4b7ps2s7q=2ikcm#sw!c=#6v9er#hx8or'
 
 ALLOWED_HOSTS = ['*']
 
