@@ -1,4 +1,4 @@
-from pythondjangoapp.settings.base import *
+from pydjango.settings.base import *
 
 DEBUG = True
 

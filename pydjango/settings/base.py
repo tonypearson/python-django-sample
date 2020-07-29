@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = '+)!83krz^m$i%=uo!4b7ps2s7q=2ikcm#sw!c=#6v9er#hx8or'
+SECRET_KEY = os.environ['PYDJANGO_KEY']
 
 ALLOWED_HOSTS = ['*']
 
@@ -35,7 +35,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware'
 ]
 
-ROOT_URLCONF = 'pythondjangoapp.urls'
+ROOT_URLCONF = 'pydjango.urls'
 
 TEMPLATES = [
     {
@@ -53,7 +53,7 @@ TEMPLATES = [
     }
 ]
 
-WSGI_APPLICATION = 'pythondjangoapp.wsgi.application'
+WSGI_APPLICATION = 'pydjango.wsgi.application'
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
